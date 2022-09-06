@@ -53,9 +53,11 @@
 
     .navbar-demo.open-nav button.menu-btn i:before {
         content: '\f00d ';
+
     }
     .fa-bars:before, .fa-navicon:before {
         color: black;
+
     }
 
 
@@ -79,5 +81,9 @@
 
     .nav-icons a:first-child {
         margin-right: 15px!important;
+    }
+    .navbar-demo.open-nav  .nav-bar{
+        width: 100%;
+        left: 0;
     }
 }
