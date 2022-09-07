@@ -41,7 +41,11 @@
     }
     @include max-screen(787px) {
       padding-right: 15px;
+      padding-top: 165px;
 
+    }
+    @include max-screen(550px) {
+      padding-top:110px ;
     }
     @include max-screen(500px) {
       padding: 100px 30px;
@@ -88,6 +92,7 @@
       border: 1px solid #000000;
       border-radius: 200px;
       background-color: transparent;
+      z-index: 200;
     }
   }
 }
