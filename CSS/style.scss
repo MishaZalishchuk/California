@@ -1,6 +1,7 @@
 @import "header.css";
+
 .navbar .navbar-nav .nav-item {
-  ont-family: "Inter";
+  ont-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -9,4 +10,6 @@
   color: black;
 }
 
-/*# sourceMappingURL=style.css.map */
+.navbar-nav .nav-item:hover {
+
+}

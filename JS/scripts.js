@@ -1,8 +1,3 @@
-$(document).ready(function () {
-    $('.menu-btn').click(function(event) {
-        $('.navbar-demo').toggleClass('open-nav');
-    });
-});
 
 $('.owl-carousel').owlCarousel({
     loop:true,
