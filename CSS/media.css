@@ -41,18 +41,17 @@
         overflow-y: hidden;
     }
 
+    .nav-bar ul li a:nth-child(2):after {
+        position: relative;
+        top: -4px;
+    }
+
     .navbar-demo .nav-bar ul li a {
         display: block;
         color: black;
         padding-top: 20px;
         padding-left: 0!important;
         font-size: 24px;
-    }
-
-
-
-    .nav-bar ul li a:nth-child(2):after {
-        display: none;
     }
 
     .navbar-demo.open-nav button.menu-btn i:before {

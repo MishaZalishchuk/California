@@ -1,5 +1,6 @@
 .main_banner {
   margin: 28px 73px 75px 73px;
+  min-height: 550px;
   border-radius: 32px;
   background-color: #DCE5E2;
   background-image: url("../Images/mb_background.png");
@@ -15,11 +16,20 @@
 @media screen and (max-width: 787px) {
   .main_banner {
     background-size: cover;
+    background-position-x: 40px;
+    max-height: 550px;
   }
 }
 @media screen and (max-width: 500px) {
   .main_banner {
-    background-position: 40%;
+    background-size: auto;
+    max-height: 350px;
+    background-position: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .main_banner {
+    background-position-x: 20%;
   }
 }
 .main_banner .mb_text {
@@ -37,6 +47,11 @@
     padding-right: 15px;
   }
 }
+@media screen and (max-width: 500px) {
+  .main_banner .mb_text {
+    padding: 100px 30px;
+  }
+}
 .main_banner .mb_text h1 {
   font-family: "Readex Pro";
   font-style: normal;
@@ -46,6 +61,12 @@
   color: #000000;
 }
 @media screen and (max-width: 787px) {
+  .main_banner .mb_text h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
   .main_banner .mb_text h1 {
     font-size: 42px;
     line-height: 50px;
@@ -66,7 +87,7 @@
     font-size: 14px;
   }
 }
-.main_banner button {
+.main_banner .mb_text button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -74,11 +95,87 @@
   line-height: 22px;
   text-transform: capitalize;
   color: #000000;
-  margin: 30px 0 127px 56px;
+  margin: 30px 0 127px 0;
   padding: 14px 53px;
   border: 1px solid #000000;
   border-radius: 200px;
   background-color: transparent;
 }
+
+/*
+.main_banner {
+  margin: 28px 73px 75px 73px;
+  border-radius: 32px;
+  background-color: #DCE5E2;
+  background-image: url("../Images/mb_background.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  box-sizing: border-box;
+  @include max-screen(983px) {
+    margin: 30px;
+  }
+  @include max-screen(787px) {
+    background-size: cover;
+  }
+  @include max-screen(500px) {
+    background-position: 40%;
+    max-height: 400px;
+  }
+  .mb_text {
+    max-width: 588px;
+    padding-left: 56px;
+    padding-top: 145px;
+    @include max-screen(1295px) {
+      background-color: rgb(255,250,250,0.7);
+    }
+    @include max-screen(787px) {
+      padding-right: 15px;
+    }
+    @include max-screen(500px) {
+      padding: 20px;
+    }
+    h1 {
+      font-family: 'Readex Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+      @include max-screen(787px) {
+        font-size: 42px;
+        line-height: 50px;
+      }
+    }
+    p {
+      max-width: 565px;
+      padding-top: 19px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      @include max-screen(787px) {
+        font-size: 14px;
+      }
+
+    }
+  }
+  button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 30px 0 127px 56px;
+    padding: 14px 53px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    background-color: transparent;
+
+  }
+}*/
 
 /*# sourceMappingURL=main_banner_preproc.css.map */
