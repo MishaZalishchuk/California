@@ -3,6 +3,9 @@
 @import "save_on_our_most.css";
 @import "see_the_best.css";
 @import "shop_our_latest.css";
+@import "ideas_have_a_place.css";
+@import "pre_footer.css";
+@import "footer.css";
 .navbar .navbar-nav .nav-item {
   ont-family: "Inter";
   font-style: normal;

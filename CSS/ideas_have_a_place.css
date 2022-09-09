@@ -1,0 +1,47 @@
+.ideas_have_a_place .ihph_title h2 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.ideas_have_a_place .ihph_title p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
+.ihph_banner {
+  height: 420px;
+}
+.ihph_banner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.ihph_see_all a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ihph_see_all a:after {
+  content: url("../Images/diag_arrow.svg");
+  position: relative;
+  top: 5px;
+}
+
+/*# sourceMappingURL=ideas_have_a_place.css.map */

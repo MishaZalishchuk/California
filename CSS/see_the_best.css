@@ -16,4 +16,54 @@
   color: #000000;
 }
 
+.see_the_best .stb_items .stb_item_1 {
+  height: 453px;
+  background-image: url("../Images/stb_image_1.png");
+  background-repeat: no-repeat;
+  background-color: #F8F9FA;
+  border-radius: 16px;
+  background-position: bottom;
+}
+.see_the_best .stb_items .stb_item_2 {
+  height: 453px;
+  background-image: url("../Images/stb_image_2.png");
+  background-repeat: no-repeat;
+  background-color: #F8F9FA;
+  border-radius: 16px;
+  background-position: bottom;
+}
+.see_the_best .stb_items .stb_item_3 {
+  height: 453px;
+  background-image: url("../Images/stb_image_3.png");
+  background-repeat: no-repeat;
+  background-color: #F8F9FA;
+  border-radius: 16px;
+  background-position: bottom;
+}
+
+.see_the_best .stb_items p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding: 0;
+}
+.see_the_best .stb_items h4 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.see_the_best .stb_items button {
+  padding: 14px 63px;
+  border: 1px solid #000000;
+  border-radius: 200px;
+}
+
 /*# sourceMappingURL=see_the_best.css.map */
