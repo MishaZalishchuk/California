@@ -1,4 +1,36 @@
 .footer_content {
-  height: 100px;
-  background-color: #0c5460;
+  background-color: #F8F9FA;
+  .footer_title {
+    max-width: 98%;
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    .footer_list {
+      h4 {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+      }
+    }
+    a {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 22px;
+      color: #000000;
+      text-decoration: none;
+      padding-bottom: 14px;
+    }
+  }
 }
+

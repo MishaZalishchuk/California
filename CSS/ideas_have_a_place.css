@@ -1,4 +1,8 @@
-.ideas_have_a_place .ihph_title h2 {
+.ideas_have_a_place {
+  max-width: 90%;
+}
+
+.ihph_title h2 {
   font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
@@ -7,7 +11,7 @@
   text-align: center;
   color: #000000;
 }
-.ideas_have_a_place .ihph_title p {
+.ihph_title p {
   font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;

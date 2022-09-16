@@ -1,8 +1,6 @@
 .pre-footer {
-  height: 450px;
+  max-width: 90%;
 }
-
-
 .pf_title h2 {
   font-family: 'Readex Pro';
   font-style: normal;
@@ -35,7 +33,7 @@
   }
 }
 
-.pf_search_buttons btn {
+.pf_search_buttons a {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -46,11 +44,13 @@
   background: #FFFFFF;
   border: 1px solid #C5C5C5;
   border-radius: 200px;
+  text-decoration: none;
 }
 
 .pf_banner {
   background: #DCE5E2;
   border-radius: 16px;
+  max-width: 935px;
 
   h2 {
     font-family: 'Readex Pro';
@@ -98,6 +98,5 @@
       line-height: 17px;
       color: #FFFFFF;
     }
-
   }
 }

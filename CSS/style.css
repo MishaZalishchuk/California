@@ -1,4 +1,4 @@
-@import "header_preproc.css";
+@import "header.css";
 @import "main_banner_preproc.css";
 @import "save_on_our_most.css";
 @import "see_the_best.css";
@@ -6,14 +6,5 @@
 @import "ideas_have_a_place.css";
 @import "pre_footer.css";
 @import "footer.css";
-.navbar .navbar-nav .nav-item {
-  ont-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  color: black;
-}
 
 /*# sourceMappingURL=style.css.map */

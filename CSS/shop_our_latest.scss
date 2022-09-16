@@ -1,3 +1,8 @@
+.shop_our_latest {
+  max-width: 90%;
+}
+
+
 .sol_text {
   h2 {
     font-family: 'Readex Pro';
@@ -17,8 +22,6 @@
   }
 }
 
-.sol_images {
-}
 
 .sol_images .item-1 {
   .item-1-1 {
@@ -26,7 +29,7 @@
     background-image: url("../Images/sol_1.jpg");
     background-color: #FFFFFF;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 80%;
     background-position-x: 40%;
     background-position-y: 0%;
     h4 {
@@ -58,9 +61,7 @@
     background-color: #FFFFFF;
     background-repeat: no-repeat;
     top: 25px;
-    background-size: 90%;
-    background-position-x: -130%;
-    background-position-y: 12%;
+    background-position-x: 10%;
     h4 {
       font-family: 'Inter';
       font-style: normal;
@@ -89,7 +90,7 @@
 .sol_images .item-2 {
   background-image: url("../Images/sol_3.jpg");
   background-color: #FFFFFF;
-  background-position-x: 24.88%;
+  background-position-x: 20%;
   background-position-y: 35%;
   height: 792px;
   background-repeat: no-repeat;

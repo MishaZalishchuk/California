@@ -22,33 +22,35 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light px-md-5 align-items-center">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand pl-xl-2 pl-3 py-4 py-lg-0" href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-0 pr-4 pr-md-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse mx-auto pt-2" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
+        <div class="collapse navbar-collapse mx-auto pt-2 pl-xl-4 pl-lg-3 pl-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto ">
                 <li class="nav-item pr-lg-4">
-                    <a class="nav-link" href="#">all products</a>
+                    <a class="nav-link active " href="#">all products</a>
                 </li>
                 <li class="nav-item dropdown pr-lg-4">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-expanded="false">
                         Solutions
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Soution 1</a>
-                        <a class="dropdown-item" href="#">Soution 2</a>
-                        <a class="dropdown-item" href="#">Soution 3</a>
+                    <div class="dropdown-menu border-0 pl-0 collapse ">
+                        <a class="dropdown-item pb-3" href="#">Cheap solution</a>
+                        <a class="dropdown-item pb-3" href="#">Working solution</a>
+                        <a class="dropdown-item" href="#">Expensive<br> non-necessary solution</a>
                     </div>
                 </li>
                 <li class="nav-item pr-lg-5">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link active" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Support</a>
+                    <a class="nav-link active" href="#">Support</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row pt-3 pt-lg-0">
@@ -59,7 +61,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#">
-                        <img src="images/cart_ico.svg" alt="ico">
+                        <img src="images/full_cart.svg" alt="ico">
                     </a>
                 </li>
             </ul>
@@ -67,8 +69,8 @@
     </nav>
 </header>
 
-<section class="owl-carousel">
-    <div class="main_banner">
+<section class="owl-carousel main_banner mx-auto">
+    <div class="container-fluid my-5 main_banner_scr">
         <div class="mb_text">
             <h1>The new phones are here take a look.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
@@ -76,15 +78,17 @@
             <button>Explore</button>
         </div>
     </div>
-    <div class="main_banner">
+    <div class="container-fluid container-md my-5 main_banner_scr">
         <div class="mb_text">
             <h1>The new phones are here take a look.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
                 Faucibus morbi turpis.</p>
-            <button name="explore"></button>
+            <button>
+                <a href="#">Explore</a>
+            </button>
         </div>
     </div>
-    <div class="main_banner">
+    <div class="container-fluid my-5 main_banner_scr">
         <div class="mb_text">
             <h1>The new phones are here take a look.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
@@ -93,52 +97,57 @@
         </div>
     </div>
 </section>
-<section class="shop_our_latest">
-    <div class="container sol_text ">
+<section class="shop_our_latest mx-auto">
+    <div class="container-fluid sol_text">
         <div class="row">
             <h2 class="col-lg-10 text-center mx-auto">Shop our latest offers and categories</h2>
-            <p class="col-lg-8 text-center mx-auto pt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+            <p class="col-lg-8 text-center mx-auto pt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Scelerisque in est dui,
                 aliquam, tempor. Faucibus morbi
                 turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </div>
 
-    <div class="sol_images container mt-5 align-content-between">
+    <div class="sol_images container-fluid mt-5 align-content-between">
         <div class="row pt-5">
-            <div class="item-1 col-xl-5 col-lg-12" >
-                <div class="item-1-1 shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="item-1 col-xl-6 col-lg-12">
+                <div class="item-1-1 shadow-lg mb-5 bg-white rounded">
                     <h4>Laptops</h4>
                     <h3>True Laptop<br> Solution</h3>
                 </div>
-                <div class="item-1-2 shadow-lg p-3 mb-5 bg-white rounded position-relative">
+                <div class="item-1-2 shadow-lg mb-5 bg-white rounded position-relative">
                     <h4>Watch</h4>
                     <h3>Not just<br> stylish</h3>
                 </div>
             </div>
-            <div class="item-2 col-xl-3 col-lg-12 shadow-lg p-3 mb-5 bg-white rounded">
-                <h4>Phones</h4>
-                <h3>Your day to day life</h3>
+            <div class="col-xl-3 col-lg-12">
+                <div class="item-2 shadow-lg  mb-5 bg-white rounded">
+                    <h4>Phones</h4>
+                    <h3>Your day to day life</h3>
+                </div>
 
             </div>
-            <div class="item-3 col-xl-3 col-lg-12 shadow-lg p-3 mb-5 bg-white rounded ml-xl-3">
-                <h4>Tablet</h4>
-                <h3>Empower your work</h3>
+            <div class="col-xl-3 col-lg-12">
+                <div class="item-3 shadow-lg mb-5 bg-white rounded">
+                    <h4>Tablet</h4>
+                    <h3>Empower your work</h3>
+                </div>
             </div>
         </div>
 
     </div>
 </section>
-<section class="save_on_our_most">
-    <div class="container mt-5">
+<section class="save_on_our_most mx-auto">
+    <div class="container-fluid mt-5">
         <div class="soum_title row pb-5">
             <h2 class="col-10 text-center mx-auto">Save on our most selled items.</h2>
             <p class="col-8 text-center mx-auto pt-1">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
         </div>
-        <div class="soum_items container">
+        <div class="soum_items container-fluid">
             <div class="row">
                 <div class="col-3">
                     <a href="#">
-                        <img src="Images/lot_1.jpg">
+                        <img src="Images/lot_1.jpg" alt="lot">
                         <h5 class="pt-5">MacBook Pro 13</h5>
                         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</p>
                         <h6>$ 1,200.00 US</h6>
@@ -146,7 +155,7 @@
                 </div>
                 <div class="col-3">
                     <a href="#">
-                        <img src="Images/lot_2.jpg">
+                        <img src="Images/lot_2.jpg" alt="lot">
                         <h5 class="pt-5">Smart Galaxy Watch 3</h5>
                         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                             velit...</p>
@@ -155,7 +164,7 @@
                 </div>
                 <div class="col-3">
                     <a href="#">
-                        <img src="Images/lot_3.jpg">
+                        <img src="Images/lot_3.jpg" alt="lot">
                         <h5 class="pt-5">MacBook Air M1</h5>
                         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                             velit...</p>
@@ -164,7 +173,7 @@
                 </div>
                 <div class="col-3 h-100">
                     <a href="#">
-                        <img src="Images/lot_4.jpg">
+                        <img src="Images/lot_4.jpg" alt="lot">
                         <h5 class="pt-5">iPad</h5>
                         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                             velit...</p>
@@ -175,14 +184,14 @@
         </div>
     </div>
 </section>
-<section class="see_the_best">
-    <div class="stb_title container">
+<section class="see_the_best mx-auto">
+    <div class="stb_title container-fluid">
         <div class="row">
             <h2 class="col-10 text-center mx-auto mt-5">See the best around here</h2>
             <p class="col-8 text-center mx-auto">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
         </div>
     </div>
-    <div class="stb_items container">
+    <div class="stb_items container-fluid">
         <div class="row mt-5 justify-content-between">
             <div class="col-4">
                 <div class="stb_item_1 text-center pt-5">
@@ -210,18 +219,18 @@
     </div>
 </section>
 
-<section class="ideas_have_a_place">
-    <div class="ihph_title container">
+<section class="ideas_have_a_place mx-auto">
+    <div class="ihph_title container-fluid">
         <div class="row py-5">
             <h2 class="col-10 mx-auto text-center">Ideas have a place here</h2>
             <p class="col-8 mx-auto text-center">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
         </div>
     </div>
-    
-    <div class="ihph_banner container">
+
+    <div class="ihph_banner container-fluid">
         <div class="row">
             <div class="col-6">
-                <img class="img-fluid" src="Images/ihph_banner.jpg">
+                <img class="img-fluid" src="Images/ihph_banner.jpg" alt="img">
             </div>
             <div class="ihph_text col-6 pt-2">
                 <p>We Make It Easy To Find The Great Design Talent, Easier...</p>
@@ -241,8 +250,8 @@
     </div>
 </section>
 
-<section class="pre-footer">
-    <div class="pf_title container">
+<section class="pre-footer mx-auto">
+    <div class="pf_title container-fluid">
         <div class="row pt-5">
             <h2 class="col-10 mx-auto text-center">Looking for anything else?</h2>
         </div>
@@ -250,40 +259,43 @@
             <div class="col-8 mx-auto">
                 <div class="pf_search_bar input-group">
                     <button type="button" class="btn shadow-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                         </svg>
                     </button>
-                    <input type="search" class="form-control shadow-none" placeholder="Search keyword" aria-label="Search" aria-describedby="search-addon"/>
+                    <input type="search" class="form-control shadow-none" placeholder="Search keyword"
+                           aria-label="Search" aria-describedby="search-addon"/>
                 </div>
             </div>
         </div>
         <div class="pf_search_buttons row pt-3">
             <div class="col-6 d-flex text-center mx-auto justify-content-around">
-                <btn>iPhone</btn>
-                <btn>Charger</btn>
-                <btn>Gift</btn>
-                <btn>Google Pixel 3</btn>
-                <btn>Keyboard</btn>
+                <a href="#">iPhone</a>
+                <a href="#">Charger</a>
+                <a href="#">Gift</a>
+                <a href="#">Google Pixel 3</a>
+                <a href="#">Keyboard</a>
             </div>
         </div>
         <div class="pf_search_buttons row pt-2">
             <div class="col-5 d-flex text-center mx-auto justify-content-around">
-                <btn>13 Pro Max</btn>
-                <btn>iPhone 12</btn>
-                <btn>Laptop</btn>
-                <btn>Mobile</btn>
+                <a href="#">13 Pro Max</a>
+                <a href="#">iPhone 12</a>
+                <a href="#">Laptop</a>
+                <a href="#">Mobile</a>
             </div>
         </div>
     </div>
-    <div class="container pf_banner">
-        <div class="row my-5 pt-5">
+    <div class="container-fluid pf_banner">
+        <div class="row mt-5 mb-3 pt-5">
             <div class="col mx-auto align-items-center text-center">
                 <h2 class="py-1">Never miss a thing</h2>
                 <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
-                <img class="pb-3" src="Images/pf_image.png">
-                <div class="pf_email input-group mb-3">
-                    <input type="text" class="shadow-none form-control" placeholder="Your email" aria-label="Your email" aria-describedby="button-addon2">
+                <img class="pb-3" src="Images/pf_image.png" alt="image">
+                <div class="pf_email input-group pb-5">
+                    <input type="text" class="shadow-none form-control" placeholder="Your email" aria-label="Your email"
+                           aria-describedby="button-addon2">
                     <div class="input-group-append">
                         <button class="btn shadow-none" type="button" id="button-addon2">Sign up</button>
                     </div>
@@ -294,16 +306,50 @@
     </div>
 </section>
 <footer>
-<div class="footer_content container-fluid">
-    <div class="row">
-        <div class="col">
-
+    <div class="footer_content container-fluid">
+        <div class="footer_title row py-5 border-bottom mb-5 mx-auto px-3 justify-content-between">
+            <div class="col-4 ">
+                <img class="pb-3" src="Images/f_logo.svg" alt="logo">
+                <p>
+                    Sign up for texts to be notified about<br> our best offers on the perfect gifts.
+                </p>
+            </div>
+            <div class="footer_list col-2 pl-0">
+                <h4 class="pb-3">All products</h4>
+                <div class="d-flex flex-column">
+                    <a href="#">Phones</a>
+                    <a href="#">Watch</a>
+                    <a href="#">Tablet</a>
+                    <a href="#">Laptops</a>
+                </div>
+            </div>
+            <div class="footer_list col-2 pl-0">
+                <h4 class="pb-3">Company</h4>
+                <div class="d-flex flex-column">
+                    <a href="#">About</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+            <div class="footer_list col-2 pl-0">
+                <h4 class="pb-3">Support</h4>
+                <div class="d-flex flex-column">
+                    <a href="#">Style Guide</a>
+                    <a href="#">Licensing</a>
+                    <a href="#">Change Log</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer_list col-2 pl-0">
+                <h4 class="pb-3">Follow Us</h4>
+                <div class="d-flex flex-column">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Youtube</a>
+                </div>
+            </div>
         </div>
-
     </div>
-
-</div>
-
 </footer>
 
 </body>

@@ -1,4 +1,8 @@
-.see_the_best .stb_title h2 {
+.see_the_best {
+  max-width: 90%;
+}
+
+.stb_title h2 {
   font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
@@ -7,7 +11,7 @@
   text-align: center;
   color: #000000;
 }
-.see_the_best .stb_title p {
+.stb_title p {
   font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
