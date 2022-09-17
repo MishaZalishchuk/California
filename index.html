@@ -12,11 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/owl.carousel.css">
     <link rel="stylesheet" href="CSS/owl.theme.default.css">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/bootstrap.css">
-    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
@@ -75,14 +72,12 @@
             <h1>The new phones are here take a look.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
                 Faucibus morbi turpis.</p>
-            <button>
-                <a href="#">Explore</a>
-            </button>
+            <button>Explore</button>
         </div>
     </div>
     <div class="container-fluid my-5 main_banner_scr">
         <div class="mb_text">
-            <h1>The new phones are here take a look.</h1>
+            <h2>The new phones are here take a look.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
                 Faucibus morbi turpis.</p>
             <button>
@@ -92,7 +87,7 @@
     </div>
     <div class="container-fluid my-5 main_banner_scr">
         <div class="mb_text">
-            <h1>The new phones are here take a look.</h1>
+            <h2>The new phones are here take a look.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
                 Faucibus morbi turpis.</p>
             <button>
@@ -261,16 +256,18 @@
         </div>
         <div class="row pt-4">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <div class="pf_search_bar input-group">
-                    <button type="button" class="btn shadow-none">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                             class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                        </svg>
-                    </button>
-                    <input type="search" class="form-control shadow-none" placeholder="Search keyword"
-                           aria-label="Search" aria-describedby="search-addon"/>
-                </div>
+                <form>
+                    <div class="pf_search_bar input-group">
+                        <button type="button" class="btn shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                 class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                        <input type="search" class="form-control shadow-none" placeholder="Search keyword"
+                               aria-label="Search" aria-describedby="search-addon"/>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="pf_search_buttons row pt-3">
@@ -290,17 +287,19 @@
     <div class="container-fluid pf_banner">
         <div class="row mt-5 mb-3 pt-5">
             <div class="col mx-auto align-items-center text-center">
-                <h2 class="py-1">Never miss a thing</h2>
-                <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
-                <img class="pb-3" src="Images/pf_image.png" alt="image">
-                <div class="pf_email input-group pb-5">
-                    <input type="text" class="shadow-none form-control" placeholder="Your email" aria-label="Your email"
-                           aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn shadow-none" type="button" id="button-addon2">Sign up</button>
+                <form>
+                    <h2 class="py-1">Never miss a thing</h2>
+                    <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+                    <img class="pb-3" src="Images/pf_image.png" alt="image">
+                    <div class="pf_email input-group pb-5">
+                        <input type="text" class="shadow-none form-control" placeholder="Your email"
+                               aria-label="Your email"
+                               aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn shadow-none" type="button" id="button-addon2">Sign up</button>
+                        </div>
                     </div>
-                </div>
-
+                </form>
             </div>
         </div>
     </div>
@@ -315,38 +314,66 @@
                 </p>
             </div>
             <div class="footer_list col-lg-2 col-md-3 col-6 pl-3 pl-lg-0 pb-4">
-                <h4 class="pb-3 ">All products</h4>
-                <div class="d-flex flex-column ">
-                    <a href="#">Phones</a>
-                    <a href="#">Watch</a>
-                    <a href="#">Tablet</a>
-                    <a href="#">Laptops</a>
-                </div>
+                <h4 class="pb-2">All products</h4>
+                <ul class="text-decoration-none list-unstyled">
+                    <li class="pb-2">
+                        <a href="#">Phones</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Watch</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Tablet</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Laptops</a>
+                    </li>
+                </ul>
             </div>
             <div class="footer_list col-lg-2 col-md-3 col-6 pl-3 pl-lg-0 pb-4">
                 <h4 class="pb-3">Company</h4>
-                <div class="d-flex flex-column">
-                    <a href="#">About</a>
-                    <a href="#">Support</a>
-                </div>
+                <ul class="text-decoration-none list-unstyled">
+                    <li class="pb-2">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Support</a>
+                    </li>
+                </ul>
             </div>
             <div class="footer_list col-lg-2 col-md-3 col-6 pl-3 pl-lg-0 pb-4">
                 <h4 class="pb-3">Support</h4>
-                <div class="d-flex flex-column">
-                    <a href="#">Style Guide</a>
-                    <a href="#">Licensing</a>
-                    <a href="#">Change Log</a>
-                    <a href="#">Contact</a>
-                </div>
+                <ul class="text-decoration-none list-unstyled">
+                    <li class="pb-2">
+                        <a href="#">Style Guide</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Licensing</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Change Log</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="footer_list col-lg-2 col-md-3 col-6 pl-3 pl-lg-0 pb-4">
+            <div class="footer_list col-lg-2 col-md-3 col-6 pl-3 pl-lg-0 pb-4 ">
                 <h4 class="pb-3">Follow Us</h4>
-                <div class="d-flex flex-column">
-                    <a href="#">Instagram</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Youtube</a>
-                </div>
+                <ul class="text-decoration-none list-unstyled ">
+                    <li class="pb-2">
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">LinkedIn</a>
+                    </li>
+                    <li class="pb-2">
+                        <a href="#">Youtube</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

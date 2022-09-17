@@ -57,6 +57,20 @@
     line-height: 50px;
   }
 }
+.main_banner_scr .mb_text h2 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+@media screen and (max-width: 544px) {
+  .main_banner_scr .mb_text h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 .main_banner_scr .mb_text p {
   max-width: 565px;
   padding-top: 19px;

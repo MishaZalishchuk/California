@@ -1,7 +1,5 @@
-@mixin max-screen($res)
-{
-  @media screen and (max-width: $res)
-  {
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
     @content;
   }
 }
@@ -24,13 +22,14 @@
   @include max-screen(1000px) {
     background-position: bottom center;
   }
+
   .mb_text {
     max-width: 50%;
     padding-left: 56px;
     padding-top: 145px;
     @include max-screen(1000px) {
       max-width: 100%;
-      background: linear-gradient(to right, rgb(220,229,226,), transparent);
+      background: linear-gradient(to right, rgb(220, 229, 226,), transparent);
       padding: 100px 30px 100px 30px;
       border-radius: 32px;
       margin-right: 0;
@@ -39,10 +38,11 @@
       padding: 50px 15px 100px 15px;
       max-width: none;
       width: 100%;
-      background: linear-gradient(to right, rgb(220,229,226,), transparent);
+      background: linear-gradient(to right, rgb(220, 229, 226,), transparent);
       margin: 0;
 
     }
+
     h1 {
       font-family: 'Readex Pro';
       font-style: normal;
@@ -56,6 +56,20 @@
 
       }
     }
+    h2 {
+      font-family: 'Readex Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+      @include max-screen(544px) {
+        font-size: 40px;
+        line-height: 50px;
+
+      }
+    }
+
     p {
       max-width: 565px;
       padding-top: 19px;
@@ -77,6 +91,7 @@
         max-width: 80%;
       }
     }
+
     button {
       font-family: 'Inter';
       font-style: normal;
@@ -99,6 +114,7 @@
         font-size: 16px;
         padding: 12px 40px;
       }
+
       a {
         text-decoration: none;
         color: black;
@@ -146,7 +162,8 @@
   top: -100px;
 
 }
-.owl-dot span{
+
+.owl-dot span {
   display: inline-block;
   height: 2px;
   width: 194px;
